@@ -1,16 +1,16 @@
-# Villa Rina — Website
+# Villa Rina | Website
 
 A modern, multilingual (EN / DE / HR) static website for **Villa Rina**, a luxury 5-star
 holiday villa in Crikvenica, Croatia. Built with semantic HTML, modern CSS and vanilla
-JavaScript — **no frameworks, no build step**. Deployable as-is to any static host.
+JavaScript. **No frameworks, no build step.** Deployable as-is to any static host.
 
-## ⚠️ Important — activate the inquiry form (one-time step)
+## ⚠️ Important: activate the inquiry form (one-time step)
 
 The inquiry forms send email through [FormSubmit](https://formsubmit.co) with no backend.
 **The very first time the form is submitted, FormSubmit sends a one-time confirmation
 email to `sandraskiljan11@gmail.com`. That email contains an activation link that must be
 clicked before any inquiries are delivered.** Submit the form once after deploying, open
-the confirmation email, click the link — done.
+the confirmation email and click the link. Done.
 
 Also update the redirect URL used after a successful submission: in `index.html` and
 `contact.html`, find the hidden input
@@ -37,7 +37,7 @@ also works, but a local server is closer to production behaviour.
 
 ## Deploy
 
-The site is plain static files — deploy the whole folder to:
+The site is plain static files. Deploy the whole folder to:
 
 - **Netlify:** drag & drop the folder in the Netlify dashboard, or `netlify deploy`.
 - **Vercel:** `vercel` in the project root (framework preset: "Other").
@@ -51,7 +51,7 @@ activation step above and update the `_next` / canonical URLs.
 ```
 index.html          Home (hero, highlights, stats, photo tour, testimonials, inquiry CTA)
 villa.html          The villa: rooms, facts, interactive amenity explorer
-gallery.html        All 35 photos, filterable by category, custom lightbox
+gallery.html        All photos, filterable by category, custom lightbox
 location.html       Crikvenica: distances explorer, restaurants, beaches, map
 about.html          The hosts' story
 contact.html        Contact cards, full inquiry form, FAQ, Google Map
@@ -59,7 +59,7 @@ thank-you.html      Post-submission confirmation page
 css/style.css       All styles (design tokens at the top under ":root")
 js/main.js          All interactivity (commented by module)
 js/translations.js  Every UI string in EN / DE / HR
-images/             Optimized villa photos (max 1600–2000px wide)
+images/             Optimized villa photos (max 1600 to 2000px wide)
 images/thumbs/      800px thumbnails used in grids (srcset)
 images/illustrations/  Minimal SVG artwork for restaurant/beach cards (see note below)
 favicon.svg         The "roof + waves" site mark
@@ -79,8 +79,15 @@ images/og-image.jpg Social sharing image (1200×630)
 **Restaurant & beach cards** on `location.html` currently use minimal SVG illustrations
 (`images/illustrations/`) in the site's palette, and are labelled as illustrative in
 their alt text. If you have real photos of the restaurants and beaches, replace the
-`<img src="images/illustrations/….svg">` references with them — real photos are always
+`<img src="images/illustrations/….svg">` references with them. Real photos are always
 better.
+
+## Photo status
+
+The outdoor, pool, terrace and aerial photos are the current professional set.
+The interior photos (living room, kitchen, bedrooms, bathrooms) are from the older
+shoot and are kept as placeholders until the new interior set arrives; drop the new
+files into `images/` + `images/thumbs/` and update the references as described above.
 
 ## Editing translations
 

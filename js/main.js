@@ -311,9 +311,9 @@
     if (!tabs.length || !media) return;
 
     var TOUR_IMAGES = {
-      villa: { src: "images/outdoors2rf.jpg", alt: "Villa Rina seen across the heated pool with outdoor dining in the background" },
+      villa: { src: "images/outdoors3.jpg", alt: "Villa Rina with its pool and sun loungers on a summer day" },
       bedrooms: { src: "images/bedroom3r.jpg", alt: "Modern double bedroom with sea view at Villa Rina" },
-      terrace: { src: "images/outdoors5r.jpg", alt: "Pergola lounge corner on the upper terrace of Villa Rina" },
+      terrace: { src: "images/outdoors7.jpg", alt: "Outdoor dining table on the covered terrace with a sea view" },
       kitchen: { src: "images/kitchen4r.jpg", alt: "Dining table with a sea view in the Villa Rina kitchen" },
       living: { src: "images/living1r.jpg", alt: "Open-plan living room with corner sofa at Villa Rina" },
       bath: { src: "images/wc1r.jpg", alt: "Modern bathroom with bathtub and wave-relief tiles at Villa Rina" },
